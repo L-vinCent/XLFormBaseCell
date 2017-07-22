@@ -73,7 +73,7 @@ return 44;
 
 
 ```
-###formRow的相关设置
+### formRow的相关设置
 
 
 * 右指示Icon
@@ -124,7 +124,7 @@ return attrStr;
 
 ```
 
-###XLForm 数据更新
+### XLForm 数据更新
 在row.Value值更新的，需要调用 [self updateForm] 相当于tableView的ReloadData
 
 这里有个代理方法
@@ -143,7 +143,7 @@ return attrStr;
 ```
 
 
-###顺便举个动态添加行的🌰
+### 顺便举个动态添加行的🌰
 
 ```bash
 -(void)formRowDescriptorValueHasChanged:(XLFormRowDescriptor *)formRow oldValue:(id)oldValue newValue:(id)newValue
